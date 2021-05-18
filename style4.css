@@ -1,0 +1,84 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: url(images/blackgoose.png) center center no-repeat fixed,
+                linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+#div1{
+    background-color: white;
+    opacity :0.5;
+    background-image: url(images/purpledot.png), url(images/purpledot.png), url(images/gooseshadow.png);
+    background-repeat: repeat-y,repeat-y,no-repeat;
+    background-position: left,right,right 20% bottom;
+    
+}
+h1{
+    font-family: 'Marko One', Georgia, serif;
+    font-size: 1.5em;
+    color:  #993399;
+}
+h2{
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    font-size: 1em;
+    color: #CC6600;
+}
+#info{
+    color: gray;
+    font-style: italic;
+}
+
+.price
+    {font-style: italic;
+    font-family: Georgia, serif;
+    color: darkgrey;
+}
+.label{
+    font-weight: bold;
+    font-style: normal;
+}
+#div1{
+    text-align: center;
+}
+#appetizers ul{
+    list-style-type: none;
+}
+#appetizers a:link{
+    color: #993399;
+    text-decoration: none;
+}
+#appetizers a:hover{
+    color:#C700F2;
+    background-color: #FFC0CB;
+    text-decoration: none;
+}
+#appetizers a:visited{
+    color: #937393;
+    text-decoration: none;
+}
+.newitem, dt{
+    color: #A0522D;
+    font-weight: bold;
+}
+.newitem strong{
+    color: red;
+}
+.warning{
+    color: #FF6347;
+}
+ul .c1{
+    list-style-type: upper-roman;
+}
+ul .c2{
+    list-style-type: circle;
+}
+ul .c3{
+    margin: 10px;
+}
+ul .c4{
+    list-style-image: url("images/bull.png");
+    font-size: 2em;
+}
+dd strong{
+    color: red;
+}
